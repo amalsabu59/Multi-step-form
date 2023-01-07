@@ -1,0 +1,53 @@
+.sidebar-body {
+    position: relative;
+    padding: 10px 10px 100px 40px;
+  }
+
+.selection-section {
+    display:flex;
+    flex-direction: row;
+    /* background-color: red; */
+    position: absolute;
+    /* bottom: 550px; */
+    left: 60px;
+    
+   
+}
+.circle-afterSelection {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    font: 12px Arial, sans-serif;  
+    font-weight: bold;
+
+  }
+  .circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    /* background: #fff; */
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font: 12px Arial, sans-serif;
+    font-weight: bold;
+
+  }
+  .contents {
+    margin-left: 12px;
+  }
+  .content-one {
+    font: 12px Arial, sans-serif;
+    color: rgb(201, 184, 184);
+  }
+  .content-two {
+    font: 15px Arial, sans-serif;
+    color: #fff;
+    margin-top: -11px;
+    font-weight: bold;
+    
+  }
