@@ -1,0 +1,65 @@
+.button-container{
+    position:relative;
+
+}
+
+.button {
+    position:absolute;
+    /* margin-left: 210px;
+    margin-top: 50px; */
+    /* top: 60px;
+    left: 300px; */
+    height: 40px;
+    width:100px;
+    align-items:center;
+    background-color: #4710df;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    right:0;
+    bottom:8;
+
+  }
+  
+  .button:hover {
+    background-color: #183074;
+  }
+
+  .button-goback {
+    position:absolute;
+    /* top: 60px;
+    left: 300px; */
+    /* margin-left: 90px; */
+    height: 40px;
+    width:100px;
+    align-items:center;
+    background-color: transparent;
+    color: rgb(14, 12, 12);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    left:0;
+    top:0;
+  }
+
+  /* The required CSS rules */
+#container {
+    position:relative;
+  }
+  
+  .tl,.br {
+    position:absolute;
+  }
+  
+  .tl {
+    left:0;
+    top:0;
+  }
+  
+  .br {
+    right:0;
+    bottom:0;
+  }

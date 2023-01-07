@@ -25,10 +25,6 @@ const Form = () => {
         </label>
         <input type="text" id="phone" name="phone" className="form-input" />
         <br />
-
-        <button type="submit" className="form-button">
-          Next Step
-        </button>
       </form>
     </div>
   );

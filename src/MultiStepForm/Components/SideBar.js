@@ -1,12 +1,12 @@
 import React from "react";
 import "./sideBar.css";
-import { sideBarDetails } from "../../Assets/sideBarDetails";
-const SideBar = () => {
+import { sideBarDetails } from "../../assets/sideBarDetails";
+const SideBar = ({ step }) => {
   return (
     <div className="sidebar-body">
       <div className="sidebar-img">
         <img
-          src={require("../../Assets/bg-sidebar-desktop.svg").default}
+          src={require("../../assets/images/bg-sidebar-desktop.svg").default}
           alt="mySvgImage"
         />
       </div>
@@ -17,7 +17,13 @@ const SideBar = () => {
             style={{ bottom: item.margintop }}
           >
             <div className="contents">
-              <p className="circle">{item.id}</p>
+              <p
+                className={
+                  step === item.id ? "circle-afterSelection" : "circle"
+                }
+              >
+                {item.id}
+              </p>
             </div>
             <div className="contents">
               <p className="content-one">{item.step}</p>
