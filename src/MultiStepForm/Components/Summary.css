@@ -1,0 +1,13 @@
+.card-summary{
+
+        /* Add shadows to create the "card" effect */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+        /* border: 1px solid rgba(17, 17, 17, 0.363); */
+        background-color: rgb(242, 242, 255);
+        transition: 0.3s;
+        width: 450px;
+        border-radius: 10px;
+        margin-right: 30px;
+
+
+}
